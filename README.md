@@ -21,17 +21,15 @@
 
 SMOTE Oversampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
 * After calculationg the blanced accuracy score 0.6619848637108801.
-* The confusion-matric test and predict was ![2022-11-22 13 40 10](https://user-images.githubusercontent.com/107796290/203395190-b7b69331-fbca-4dc5-a3fe-0cc4fd5e23f2.png)
+* The confusion-matric test and predict was 
 
 *Classification report imbalanced test and predict.
-![2022-11-22 13 40 57](https://user-images.githubusercontent.com/107796290/203395425-32a81fea-baab-4b95-9b46-10844345f7bb.png)
 
 Then this analysis was to tested and compared the performances of the algorithms to the undersampling algorithms performance by using the Centroids algorithm. The testing results below:
 * Using the libraries to resample the data using the clustercentroids resampler to determoine the counter high-risk 246 and low rish result 246 the same. 
 * Balanced accuracy score resulted in the oversampling was 0.5441784794709592.
 * Confusion_matrix(y_test,y_pred) was 
 *The imbalanced classification report was to compare the high-risk to low risk as you can set in the table.
-![2022-11-22 13 49 43](https://user-images.githubusercontent.com/107796290/203397099-366e748b-c3be-433b-b9c2-81f073283c53.png)
 
 
 OVER and UNDER COMBINATION SAMPLING:
