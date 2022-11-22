@@ -3,7 +3,7 @@
    Jill requested data preperation, statisical reasoning and machine learning applied to a credit report. The Purpose of this analysis was determine the credit risk inbalance classifications using different techniques to train, evaluate loans which were to reflected the good verse riskyloans.
    It was advised to use credit dataset from a lending sevice company called LendingClub, to use various algorithms within the datasets to predict credit risk. Now, recomendation on if the predictive credit risk will be implemented within this evaluation.   
    
-   Sample of the following data set:
+Part one of this analysis was based on the credit risk of resampling with several algorithms.   Sample of the following data set:
    ![2022-11-22 13 27 43](https://user-images.githubusercontent.com/107796290/203392959-c16b1837-5ca0-4cf8-b90f-f66f7eaf256b.png)
    
    To begin the resampling  of the data training we will use the algorithms to resample the data to make presictions and evaulate the model's performances.
@@ -30,7 +30,7 @@ This anaylsis, was a naive random oversampling algorithm to compare two oversamp
 
 
 
-SMOTE Oversampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
+**SMOTE** Oversampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
 ![2022-11-22 14 20 37](https://user-images.githubusercontent.com/107796290/203402948-a8f380b7-1879-4b70-a695-a8649f0cb7b9.png)
 
 * After calculationg the balanced accuracy score 0.6619848637108801.
@@ -41,29 +41,32 @@ SMOTE Oversampling provided a resample of the training data resulting low-risk 5
 *Classification report imbalances test and predict.
 ![2022-11-22 14 22 41](https://user-images.githubusercontent.com/107796290/203403246-e61b4923-6d50-48fd-a3dd-a455820f216c.png)
 
-UNDERSAMPLING algorithm:
+**UNDERSAMPLING algorithm:**
 Then this analysis was to tested and compared the performances of the algorithms to the undersampling algorithms performance by using the Centroids algorithm. The testing results below:
-* Using the libraries to resample the data using the clustercentroids resampler to determoine the counter high-risk 246 and low rish result 246 the same. 
-* Balanced accuracy score resulted in the oversampling was 0.5441784794709592.
-* Confusion_matrix:
-* 
-*The imbalanced classification report was to compare the high-risk to low risk as you can set in the table.
 
+![2022-11-22 14 26 15](https://user-images.githubusercontent.com/107796290/203403929-b7548719-8cad-4529-b526-c3b74c9a0fc9.png)
+
+* Using the libraries to resample the data using the** **clustercentroids**** resampler to determine the counter high-risk 246 and low rish result 246 the same. 
+![2022-11-22 14 28 04](https://user-images.githubusercontent.com/107796290/203404163-6d6b5ac7-f9fd-4fc9-beb8-ec72daee2c11.png)
+
+* Balanced accuracy score resulted in the oversampling was 0.5441784794709592.
+
+* Confusion_matrix:
+![2022-11-22 14 27 27](https://user-images.githubusercontent.com/107796290/203404089-15ae40ec-f656-4750-8019-c3ad09f1b58e.png)
+ 
+*The imbalanced classification report was to compare the high-risk to low risk as you can set in the table.
+![2022-11-22 14 28 41](https://user-images.githubusercontent.com/107796290/203404251-c53f0e43-5f14-41b4-8f14-457706ebc83a.png)
 
 OVER and UNDER COMBINATION SAMPLING:
 The Over and Under Combination Sampling algorithms to determine the best performance compared to the other sampling in this analysis. TO do this count the class target as "counter" from the library and use the data resamped to train the logic regression model.
 
 * In this resampling trained data with SMOTEEN Counter results for high-risk was 51361 and the low risk was 46653. 
+![2022-11-22 14 29 22](https://user-images.githubusercontent.com/107796290/203404371-460a7c94-489e-447d-bf85-cabdef649b0d.png)
 
-
-* ![2022-11-22 13 56 31](https://user-images.githubusercontent.com/107796290/203398180-97ed5a48-c70c-41f7-9c25-2dedaaa937c7.png)
 * Next calculate the balanced accuracy score was 0.6440876547898007 from the sklearn metrics. 
-* 
-* The confusion matrix results array implicated variations compared to the other algorithms.
-* 
-![2022-11-22 13 58 18](https://user-images.githubusercontent.com/107796290/203398525-8a41c199-cecd-4dd8-9975-05450c94dd4c.png)
+ 
+* The confusion matrix results array implicated variations compared to the other algorithms. Confusion matric from sklean mertics. 
+![2022-11-22 14 30 11](https://user-images.githubusercontent.com/107796290/203404484-4a995b65-e33f-4f63-a9f8-aabbe83ca8b3.png)
 
-
-Confusion matric from sklean mertics. 
-
-The classification report from sklearn metrics 
+The imbalanced classification report from sklearn metrics. 
+![2022-11-22 14 31 11](https://user-images.githubusercontent.com/107796290/203404661-42e76f21-20dc-4b24-a12c-b6b5bc9ed02a.png)
