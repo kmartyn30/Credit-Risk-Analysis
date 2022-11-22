@@ -94,7 +94,7 @@ Then the blance of our target values of the low-risk were 68,470 and high-risk 3
 
 
 BALANCED RANDOM FOREST CLASSIFIER 
-As we resample the train data with Balanced Random Forest Classifier first to fit the train data then calculate the balanced accuracy score 0.7885466545953005. From the predicting values within the test set against the model. The y_tests the outcome from the original data set. The accuracy score is a 79 percentange of the model correct at the time. A higher rate than all the above models. 
+As we resample the train data with Balanced Random Forest Classifier first to fit the train data then calculate the balanced accuracy score 0.7885466545953005. From the predicting values within the test set against the model. The y_tests the outcome from the original data set. The accuracy score is a 79 percentange of the model correct at the time. A higher rate than all the above models. Although the accuracy score is not always an appropriate performance metric. 
 
 Then use the confusion matrix: 
 ![2022-11-22 15 08 27](https://user-images.githubusercontent.com/107796290/203411279-9ad1b213-2cbf-4411-a17d-844250a4031e.png)
