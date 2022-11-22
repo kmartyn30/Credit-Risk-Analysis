@@ -21,7 +21,7 @@
 
 SMOTE OVersampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
 * After calculationg the blanced accuracy score 0.6619848637108801.
-* The confusion-matric test and predict was ![2022-11-22 13 40 10](https://user-images.githubusercontent.com/107796290/203395190-b7b69331-fbca-4dc5-a3fe-0cc4fd5e23f2.png)
+* The confusion-matric test and predict was !
 
 *Classification report imbalanced test and predict.
 ![2022-11-22 13 40 57](https://user-images.githubusercontent.com/107796290/203395425-32a81fea-baab-4b95-9b46-10844345f7bb.png)
