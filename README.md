@@ -1,12 +1,10 @@
  Credit-Risk-Analysis-
  
-   Jill requested data preperation, statisical reasoning and machine learning applied to a credit report. The Purpose of this analysis was determine the credit risk inbalance classifications using different techniques to train, evaluate loans which were to reflected the good verse risky loans. The machine learning data points are assined based on the interval parameters on the algorithm. The data model will query, decision, and apply the fit, model and predict. 
-   It was advised to use credit dataset from a lending sevice company called LendingClub, to use various algorithms within the datasets to predict credit risk. Now, recomendation on if the predictive credit risk will be implemented within this evaluation.   
-The credit risk analysis was based on two parts credit risk ensemble and resampling credit risk.  Each of the data sets required read the csv and perform data cleaning on the leadning club data set. 
+  Jill requested data preparation, statistical reasoning, and machine learning applied to a credit report. The Purpose of this analysis was to determine the credit risk imbalance classifications using different techniques to train and evaluate loans that reflected good verse risky loans. The machine learning data points are assigned based on the interval parameters of the algorithm. The data model will query, decide, and apply the fit, model, and predict. It advised using a credit dataset from a lending service company, LendingClub, to use various algorithms within the datasets to predict credit risk. Now, the recommendation on if the predictive credit risk implements within this evaluation.
+The credit risk analysis base on two parts: credit risk ensemble and resampling credit risk for this analysis. Each data set is required to read the CSV and perform data cleaning on the Leading club data set.
+PART I:
+Part one of this analysis based on the credit risk of resampling with several algorithms. Sample of the following data set:
  
- PART I:
- 
-Part one of this analysis was based on the credit risk of resampling with several algorithms.   Sample of the following data set:
 ![2022-11-22 13 27 43](https://user-images.githubusercontent.com/107796290/203392959-c16b1837-5ca0-4cf8-b90f-f66f7eaf256b.png)
    
 To begin the resampling of the data training we will use the algorithms to resample the data to make presictions and evaulate the model's performances.
