@@ -20,16 +20,15 @@ This anaylsis, was a naive random oversampling algorithm to compare two oversamp
  *The naive random oversampling was resampling training data with the naive random oversampling algorithm result counter low risk 51366 and high risk same resample 51366.   
 ![image](https://user-images.githubusercontent.com/107796290/203409713-2aac84e9-4da6-4352-a066-2c4220489f18.png)
 
-* Another review and decribe the balance accuracy scores of y_test and y_predict which calculated 0.6571840065203901. From the predicting values within the test set against the model. The y_tests the outcome from the original data set. The accuract score is a 65 percentange of the model correct at the time.
+* Another review and describe the balance accuracy scores of y_test and y_predict which calculated 0.6571840065203901. From the predicting values within the test set against the model. The y_tests the outcome from the original data set. The accuract score is a 65 percentange of the model correct at the time.
  
 * Next, recorded the confusion_matrix to calculate an array:
 ![image](https://user-images.githubusercontent.com/107796290/203402614-6845fd59-c6e0-494e-850a-8571838e197e.png)
 
-* Another imbalanced classification report demosted the high-risk and low risk loans. 
+* Another imbalanced classification report showed the high-risk and low risk loans. 
 ![2022-11-22 13 36 01](https://user-images.githubusercontent.com/107796290/203394571-34cbe97b-3761-4931-bd8b-8ee067b72933.png)
 
-  - According to the table:
-
+  - According to the table the imblanced classifiction report breaks down the precision, recall, F1 support for credit risk. In order to predict and validate the model. The SVM model cis to predict the data set. The F1 average/total implicated is low high- risk 0.01 and low- risk is moderate 0.57. 
 
 
 **SMOTE** 
