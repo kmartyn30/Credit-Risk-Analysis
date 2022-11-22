@@ -8,7 +8,14 @@
 
    
    To begin the resampling  of the data training we will use the algorithms to resample the data to make presictions and evaulate the model's performances.  
-   In reviewing the balance of our target values we have a low risk of 68,470 to the high rosk of 347. ![2022-11-22 13 30 08](https://user-images.githubusercontent.com/107796290/203393490-4050bc80-8360-43ab-83c5-cddc6e684270.png)
+   
+   
+   In reviewing the balance of our target values we have a low risk of 68,470 to the high rosk of 347. 
+   
+   
+   
+   
+   
 
    * First, review and decribe the balance accuracy scores of y_test and y_predict which calculated 0.6571840065203901. 
    * Next, recorded the confusion_matrixto calculate an array:![2022-11-22 13 33 48](https://user-images.githubusercontent.com/107796290/203394005-f06395e9-76c3-4238-8948-89419a13d7af.png)
