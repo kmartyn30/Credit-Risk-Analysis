@@ -30,7 +30,11 @@ This anaylsis, was a naive random oversampling algorithm to compare two oversamp
 
 
 
-**SMOTE** Oversampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
+**SMOTE** 
+The SMOTEENN algorithm was used to predict credit risk. The datasets were using with imbalance-lean and scikit-learn libraries with oversampling and undersampling with the algorithm to determine the results from a combinational approach. The steps that were taken were use the SMOTEENN algorithm resample the data, utilize the counters to view the target classes, train regression classifier, calculated the balanced accuracy score and confusion matrix. 
+
+
+Oversampling provided a resample of the training data resulting low-risk 51366 and high risk the same, 51366.  
 ![2022-11-22 14 20 37](https://user-images.githubusercontent.com/107796290/203402948-a8f380b7-1879-4b70-a695-a8649f0cb7b9.png)
 
 * After calculationg the balanced accuracy score 0.6619848637108801.
