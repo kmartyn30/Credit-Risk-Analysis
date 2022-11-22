@@ -2,7 +2,10 @@
  
    Jill requested data preperation, statisical reasoning and machine learning applied to a credit report. The Purpose of this analysis was determine the credit risk inbalance classifications using different techniques to train, evaluate loans which were to reflected the good verse riskyloans.
    It was advised to use credit dataset from a lending sevice company called LendingClub, to use various algorithms within the datasets to predict credit risk. Now, recomendation on if the predictive credit risk will be implemented within this evaluation.   
-   
+The credit risk analysis was based on two parts credit risk ensemble and resampling credit risk.  Each of the data sets required read the csv and perform data cleaning on the leadning club data set. 
+ 
+ PART I:
+ 
 Part one of this analysis was based on the credit risk of resampling with several algorithms.   Sample of the following data set:
    ![2022-11-22 13 27 43](https://user-images.githubusercontent.com/107796290/203392959-c16b1837-5ca0-4cf8-b90f-f66f7eaf256b.png)
    
@@ -74,3 +77,18 @@ The Over and Under Combination Sampling algorithms to determine the best perform
 
 The imbalanced classification report from sklearn metrics. 
 ![2022-11-22 14 31 11](https://user-images.githubusercontent.com/107796290/203404661-42e76f21-20dc-4b24-a12c-b6b5bc9ed02a.png)
+
+
+PART 2:
+
+The loan credit risk sample is below as a sample to the dataset extracted. 
+
+![image](https://user-images.githubusercontent.com/107796290/203407370-e9997744-633e-4dfe-b3cc-dbb92113c7a5.png)
+
+Then the data was split into training and testing on loan status as our target.  
+
+
+![2022-11-22 14 48 54](https://user-images.githubusercontent.com/107796290/203407771-9512ad0b-aa6b-45a9-82b7-7b0fe443394b.png)
+
+Then the blance of our target values of the low-risk were 68,470 and high-risk 347. 
+![image](https://user-images.githubusercontent.com/107796290/203408054-83c4ecb5-1a4e-4965-89b1-c7f0dd02bab2.png)
