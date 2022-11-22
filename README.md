@@ -1,6 +1,6 @@
  Credit-Risk-Analysis-
  
-   Jill requested data preperation, statisical reasoning and machine learning applied to a credit report. The Purpose of this analysis was determine the credit risk inbalance classifications using different techniques to train, evaluate loans which were to reflected the good verse riskyloans.
+   Jill requested data preperation, statisical reasoning and machine learning applied to a credit report. The Purpose of this analysis was determine the credit risk inbalance classifications using different techniques to train, evaluate loans which were to reflected the good verse risky loans. The machine learning data points are assined based on the interval parameters on the algorithm. The data model will query, decision, and apply the fit, model and predict. 
    It was advised to use credit dataset from a lending sevice company called LendingClub, to use various algorithms within the datasets to predict credit risk. Now, recomendation on if the predictive credit risk will be implemented within this evaluation.   
 The credit risk analysis was based on two parts credit risk ensemble and resampling credit risk.  Each of the data sets required read the csv and perform data cleaning on the leadning club data set. 
  
