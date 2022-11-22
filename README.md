@@ -9,9 +9,9 @@ The credit risk analysis was based on two parts credit risk ensemble and resampl
 Part one of this analysis was based on the credit risk of resampling with several algorithms.   Sample of the following data set:
    ![2022-11-22 13 27 43](https://user-images.githubusercontent.com/107796290/203392959-c16b1837-5ca0-4cf8-b90f-f66f7eaf256b.png)
    
-   To begin the resampling  of the data training we will use the algorithms to resample the data to make presictions and evaulate the model's performances.
+To begin the resampling of the data training we will use the algorithms to resample the data to make presictions and evaulate the model's performances.
    
-   In reviewing the balance of our target values we have a low risk of 68,470 to the high rosk of 347. 
+In reviewing the balance of our target values we have a low risk of 68,470 to the high risk of 347. 
    ![2022-11-22 14 10 03](https://user-images.githubusercontent.com/107796290/203401123-cf8ccf5f-b896-4d00-9b00-3ae16873b5b0.png)
    
  OVERSAMPLING:
@@ -110,8 +110,9 @@ The table represents the imbalanced classification report:
 **EASY ENSEMBLE ADABOOST CLASSIFIER**
 In addition the Easy Ensemble AdaBoost Classifier algorithm, in a jupyter environment to test and predict credit reports for the loans. 
 
-Confusion matrix array results:
+The balanced accuracy score was 0.925427358175101.
 
+Confusion matrix array results:
 ![2022-11-22 15 12 31](https://user-images.githubusercontent.com/107796290/203411973-f08a1d70-f902-4e80-a082-efa94053f88b.png)
 
 The imbalanced classification report shown below:
