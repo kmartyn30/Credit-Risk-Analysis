@@ -19,6 +19,9 @@ This anaylsis, was a naive random oversampling algorithm to compare two oversamp
   
   *The naive random oversampling was resampling training data with the naive random oversampling algorithm result counter low risk 51366 and high risk same resample 51366. 
   
+  ![image](https://user-images.githubusercontent.com/107796290/203409713-2aac84e9-4da6-4352-a066-2c4220489f18.png)
+
+  
   ![2022-11-22 14 14 30](https://user-images.githubusercontent.com/107796290/203402123-7ae49377-2cb2-4eab-bd48-ae1a90758eaf.png)
 
 * Another review and decribe the balance accuracy scores of y_test and y_predict which calculated 0.6571840065203901. 
@@ -92,3 +95,25 @@ Then the data was split into training and testing on loan status as our target.
 
 Then the blance of our target values of the low-risk were 68,470 and high-risk 347. 
 ![image](https://user-images.githubusercontent.com/107796290/203408054-83c4ecb5-1a4e-4965-89b1-c7f0dd02bab2.png)
+
+
+BALANCED RANDOM FOREST CLASSIFIER 
+As we resample the train data with Balanced Random Forest Classifier first to fit the train data then calculate the balanced accuracy score 0.7885466545953005. 
+
+Then use the confusion matrix: 
+![2022-11-22 15 08 27](https://user-images.githubusercontent.com/107796290/203411279-9ad1b213-2cbf-4411-a17d-844250a4031e.png)
+
+The table represents the imbalanced classification report:
+![2022-11-22 15 09 01](https://user-images.githubusercontent.com/107796290/203411375-0f983ad3-dd0c-4c71-b07b-0933bb2f806d.png)
+
+
+**EASY ENSEMBLE ADABOOST CLASSIFIER**
+In addition the Easy Ensemble AdaBoost Classifier algorithm, in a jupyter environment to test and predict credit reports for the loans. 
+
+Confusion matrix array results:
+
+![2022-11-22 15 12 31](https://user-images.githubusercontent.com/107796290/203411973-f08a1d70-f902-4e80-a082-efa94053f88b.png)
+
+The imbalanced classification report shown below:
+
+![image](https://user-images.githubusercontent.com/107796290/203412227-d74d3dfa-3b58-4db6-b13f-da0913bda518.png)
